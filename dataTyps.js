@@ -115,3 +115,68 @@ Boolean('this is the string')
 // Maths operation operators 
 
 // +, -, *, /, %, **
+
+// comparisons
+
+// Greater / Less than: <, >
+// Greater/ Less than or equals: >=, <=
+// Equals: ==, ===
+// Not equals: !=, !== 
+
+// 1 == 2
+// false
+// 1 != 2
+// true
+// 1 != 1
+// false
+
+// '1' == 1 // true
+// '1' === 1 // false 
+
+//  '' == false // true ---> falsy values 
+// 0 == false // true
+// 0 > false // false 
+
+//  '' === false // false ---> types are diff.
+
+//  undefined == null // ture 
+//  undefined === null // false 
+
+
+// Logical Operator 
+
+// OR (||), AND (&&), NOT(!)
+
+// OR (||) ---> the result always true, 
+
+false || false || false ||  true || false || false || "This is the string" // true
+
+true || true  // true 
+true || false // true 
+false || true // true 
+false || false // false 
+
+
+false || 0 || '' // ''
+
+
+// AND (&&)
+
+true && true  // true 
+true && false // false  
+false && true // false  
+false && false // false 
+
+true && '' && 0 && false  // ''
+
+true && ' ' && 'this is the string' && 7 // 7
+
+// NOT (!)
+
+// return boolean type 
+// inverse value 
+
+!true // false 
+!0 // true
+ !!0 // false --> !0 => !true = false 
+
